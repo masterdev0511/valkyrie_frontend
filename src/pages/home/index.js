@@ -81,7 +81,6 @@ const Card = (props) => {
       className={classes.card} 
       style={{color: 'black', backgroundImage: `url(${url})`, outline: isSelect ? '5px ridge white' : 'none' }}
     >
-      <img src="/images/business-icon.svg" alt="" />
       <p>{title}</p>
       <span>{description}</span>
     </div>
@@ -112,10 +111,6 @@ function HomePage() {
   return (
     <>
       <div className={classes.business}>
-        <div>
-          <img src="/images/business-icon.png" alt="business" />
-          <span>BUSINESS</span>
-        </div>
         <span>
           Science,<br/> Applied to <span>Business</span>
         </span>
