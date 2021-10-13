@@ -19,6 +19,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "export": "npm run build && next export -o _static",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
   }
 }
